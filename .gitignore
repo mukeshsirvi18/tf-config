@@ -1,0 +1,15 @@
+.terraform/
+terraform-course/
+# Ignore Terraform files and directories
+.terraform/
+*.tfplan
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+
+# Ignore IDE/editor files
+.vscode/
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
